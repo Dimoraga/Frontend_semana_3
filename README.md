@@ -7,7 +7,7 @@
 
 Proyecto correspondiente a la primera actividad sumativa del Curso Desarrollo Frontend I (semana 3)
 
-Se implementa una página web para una tienda de video juegos denominada "Tienda William Wallace", donde se ponen en práctica los conocimientos adquiridos respecto a la optimización de un sitio web básico. 
+Se implementa una página web básica para una tienda de video juegos ficticia denominada "Tienda William Wallace", donde se ponen en práctica los conocimientos adquiridos respecto a la optimización de un sitio web básico. 
 
 # Objetivo
 
