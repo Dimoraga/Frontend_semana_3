@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Productos - Tienda de Videojuegos "William Wallace"</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700;800&family=Press+Start+2P&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
 
     <header class="header">
@@ -13,7 +18,7 @@
         <nav class="subtitle">
             <ul>
                 <li><a href="index.html">Inicio</a></li>
-                <li><a href="productos.html">Productos</a></li>
+                <li class="active"><a href="productos.html" aria-current="page">Productos</a></li>
                 <li><a href="nosotros.html">Sobre nosotros</a></li>
                 <li><a href="contacto.html">Contacto</a></li>
             </ul>
@@ -23,19 +28,20 @@
     <main>
         <h2>Lista de Productos</h2>
 
-        <h3> Consolas Retro</h3> 
-        <ul>
-        <ul class="lista-juegos">    
+        <h3> Consolas Retro</h3>
+
+        <ul class="lista-juegos">
             <li>Game Boy Advance<img src="images/game-boy.jpg" alt="Game Boy Advance"></li>
             <li>Nintendo DS<img src="images/nintendo-ds.jpg" alt="Nintendo DS"></li>
-            <li>PlayStation 2<img src="images/play-station2.jpg" alt="PlayStation 2"></li>  
+            <li>PlayStation 2<img src="images/play-station2.jpg" alt="PlayStation 2"></li>
         </ul>
-        
+
         <h3> Juegos </h3>
         <ul class="lista-juegos">
-            <li>Age of Empire II <img src="images/AOE2.jpg" alt="Age of Empire II"></li>
+            <li>Age of Empires II <img src="images/AOE2.jpg" alt="Age of Empire II"></li>
             <li>Super Mario Bros<img src="images/super-mario.jpg" alt="Super Mario Bros"></li>
-            <li>The Legend of Zelda: Ocarina of Time<img src="images/zelda.jpg" alt="The Legend of Zelda: Ocarina of Time"></li>
+            <li>The Legend of Zelda: Ocarina of Time<img src="images/zelda.jpg"
+                    alt="The Legend of Zelda: Ocarina of Time"></li>
             <li>Final Fantasy VII<img src="images/final-fantasy.jpg" alt="Final Fantasy VII"></li>
             <li>Halo: Combat Evolved<img src="images/Halo.jpg" alt="Halo: Combat Evolved"></li>
             <li>Street Fighter II<img src="images/street-fighter.jpg" alt="Street Fighter II"></li>
@@ -44,24 +50,37 @@
             <li>Metal Gear Solid<img src="images/metal_gear.jpg" alt="Metal Gear Solid"></li>
             <li>Resident Evil<img src="images/resident_Evil.jpg" alt="Resident Evil"></li>
             <li>Chrono Trigger<img src="images/chrono_trigger.jpg" alt="Chrono Trigger"></li>
+            <li>God of War 2<img src="images/god_war.jpg" alt="Juego Dios de la Guerra 2, guerrero con una espada"></li>
         </ul>
         <h3> Accesorios </h3>
-        <ul>
+        <ul class="lista-juegos">
             <li>Control inalámbrico para PlayStation 4</li>
             <li>Volante de carreras para Xbox One</li>
             <li>Audífonos gaming con micrófono</li>
         </ul>
         <h3> Merchandising </h3>
-        <ul>
+        <ul class="lista-juegos">
             <li>Figuras de acción de personajes de videojuegos</li>
             <li>Camisetas con diseños de videojuegos clásicos</li>
             <li>Pósters y arte conceptual de juegos populares</li>
         </ul>
     </main>
     <footer class="footer">
-        <p>&copy; 2023 Tienda de Videojuegos "William Wallace". Todos los derechos reservados.</p>
-        <p>Contacto:  info@williamwallace.com </p>
-        <p>Alameda N°1328, Santiago Centro</p>
+        <div class="footer-content">
+            <div class="footer-col">
+                <strong>Tienda de Videojuegos "William Wallace"</strong>
+                <p>&copy; 2023 Todos los derechos reservados.</p>
+            </div>
+            <div class="footer-col">
+                <span>Contacto</span>
+                <p>info@williamwallace.com</p>
+            </div>
+            <div class="footer-col">
+                <span>Ubicación</span>
+                <p>Alameda N°1328, Santiago Centro</p>
+            </div>
+        </div>
     </footer>
 </body>
+
 </html>

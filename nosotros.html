@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre nosotros - Tienda de Videojuegos "William Wallace"</title> 
+    <title>Sobre nosotros - Tienda de Videojuegos "William Wallace"</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700;800&family=Press+Start+2P&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
@@ -15,25 +18,47 @@
             <ul>
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="productos.html">Productos</a></li>
-                <li><a href="nosotros.html">Sobre nosotros</a></li>
+                <li class="active"><a href="nosotros.html" aria-current="page">Sobre nosotros</a></li>
                 <li><a href="contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <p>Bienvenido a la Tienda de Videojuegos "William Wallace".</p>
-        <p>Somos una tienda especializada en videojuegos clásicos y retro, con más de treinta años de experiencia en el mercado.</p>
-        <p>Todo comenzó cuando un grupo de tres amigos, entusiastas de los videojuegos, tomaron la decisión de transformar su hobby en un negocio. Comenzaron en un pequeño local en la galeria Imperio y poco a poco, fueron creando una comunidad de fieles clientes.</p>
-        <p>Nos diferenciamos por nuestro asesoramiento directo y personalizado. Nuestros vendedores conocen los juegos que venden y asesoran a los clientes desde una experiencia empírica.</p>
-        <p>Nuestra misión es ofrecer a nuestros clientes una experiencia única al explorar y adquirir videojuegos que han marcado la historia de la industria.</p>
-        <p>Visítanos en nuestra tienda ubicada en Alameda N°1328, Santiago Centro, y descubre nuestra amplia selección de productos.</p>
+        <section class="page-intro">
+            <span class="eyebrow">Desde 1993</span>
+            <h2>Bienvenido a la Tienda de Videojuegos "William Wallace".</h2>
+        </section>
+
+        <article class="story">
+            <p>Al igual que el mítico guerrero escocés, nosotros no nos rendimos ante el olvido. Nuestros socios fundadores desarrollaron un fanatismo por el juego Age of Empires II, el cual conocieron en su etapa escolar, y los llevó inclusive a competir al más alto nivel. </p>
+            <p>Somos una tienda especializada en videojuegos clásicos y retro, con más de treinta años de experiencia en el mercado. Nos consideramos un "bastión de resistencia" en el mundo de los videojuegos, un templo dedicado a preservar aquellos videojuegos clásicos de la década de los 90' y 2000.</p>
+            <p>Nuestra historia comienza, como toda gran leyenda, no con un gran ejército sino que con un grupo de tres amigos, tres amigos fanáticos de los videojuegos que se conocieron en el colegio. Estos amigos, sin darse cuenta, tomaron la decisión de transformar su hobby en su trabajo. Comenzaron en un pequeño local en la galeria Imperio y, poco a poco, fueron creando una comunidad de fieles clientes y amigos. </p>
+            <p>Hoy, esa comunidad es un verdadero ejército. Fue entonces necesario trasladarnos a un espacio más grande, nuestra actual ubicación, en que pudieramos recibir y atender cómodamente a nuestros fieles clientes. </p>
+            <p>Nos diferenciamos por nuestro asesoramiento directo y personalizado. Nuestros vendedores conocen los juegos que venden (los juegan habitualmente) y asesoran a los clientes desde una experiencia real. Antes de vendedores, son gamers.</p>
+            <blockquote class="pull-quote">Nuestra misión es ofrecer a nuestros clientes una experiencia única al explorar y adquirir videojuegos que han marcado la historia de la industria.</blockquote>
+        </article>
+
+        <div class="box cta-box">
+            <p>Visítanos en nuestra tienda ubicada en Alameda N°1328, Santiago Centro, y descubre nuestra amplia selección de productos.</p>
+        </div>
     </main>
 
     <footer class="footer">
-        <p>&copy; 2023 Tienda de Videojuegos "William Wallace". Todos los derechos reservados.</p>
-        <p>Contacto:  info@williamwallace.com </p>
-        <p>Alameda N°1328, Santiago Centro</p>
+        <div class="footer-content">
+            <div class="footer-col">
+                <strong>Tienda de Videojuegos "William Wallace"</strong>
+                <p>&copy; 2023 Todos los derechos reservados.</p>
+            </div>
+            <div class="footer-col">
+                <span>Contacto</span>
+                <p>info@williamwallace.com</p>
+            </div>
+            <div class="footer-col">
+                <span>Ubicación</span>
+                <p>Alameda N°1328, Santiago Centro</p>
+            </div>
+        </div>
     </footer>
 </body>
 </html>

@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tienda de Videojuegos "William Wallace"</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700;800&family=Press+Start+2P&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -11,7 +14,7 @@
         <h1> Tienda de Videojuegos "William Wallace"</h1>
         <nav class="subtitle">
             <ul>
-            <li><a href="index.html">Inicio</a></li>
+            <li class="active"><a href="index.html" aria-current="page">Inicio</a></li>
             <li><a href="productos.html">Productos</a></li>
             <li><a href="nosotros.html">Sobre nosotros</a></li>
             <li><a href="contacto.html">Contacto</a></li>
@@ -22,11 +25,11 @@
     </header>
 
 <main class="content">
-    <section class="hero">
+    <section class="hero" id="hero-principal">
         <div class="hero-text">
             <span class="eyebrow">Desde 1993</span>
             <h2>Retro gaming para quienes aman la historia de los videojuegos.</h2>
-            <p>En nuestra tienda encontrarás consolas, accesorios y clásicos que marcaron una época. Un espacio pensado para fanáticos del gaming retro y los juegos que nunca pasan de moda.</p>
+            <p>En nuestra tienda encontrarás consolas, accesorios y clásicos que marcaron una época. Un espacio pensado para fanáticos del gaming retro y los juegos que nunca pasan de moda. Ven a revivir la magia de los juegos clásicos de tu juventud. </p>
             <div class="hero-actions">
                 <a class="button primary" href="productos.html">Ver productos</a>
                 <a class="button secondary" href="nosotros.html">Nuestra historia</a>
@@ -76,9 +79,20 @@
 
 
 <footer class="footer">
-    <p>&copy; 2023 Tienda de Videojuegos "William Wallace". Todos los derechos reservados.</p>
-    <p> Contacto: info@williamwallace.com</p>
-    <p> Alameda N°1328, Santiago Centro</p>    
+    <div class="footer-content">
+        <div class="footer-col">
+            <strong>Tienda de Videojuegos "William Wallace"</strong>
+            <p>&copy; 2023 Todos los derechos reservados.</p>
+        </div>
+        <div class="footer-col">
+            <span>Contacto</span>
+            <p>info@williamwallace.com</p>
+        </div>
+        <div class="footer-col">
+            <span>Ubicación</span>
+            <p>Alameda N°1328, Santiago Centro</p>
+        </div>
+    </div>
 </footer>
 
 </body>
