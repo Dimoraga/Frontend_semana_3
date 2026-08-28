@@ -1,5 +1,10 @@
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> b33c869a0b7c5dd095609e03aa0f113a28e81a34
 # Frontend_semana_3
+
 Proyecto correspondiente a la primera actividad sumativa del Curso Desarrollo Frontend I (semana 3)
 
 Se implementa una página web para una tienda de video juegos denominada "Tienda William Wallace", donde se ponen en práctica
