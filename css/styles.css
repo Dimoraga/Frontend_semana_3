@@ -301,7 +301,7 @@ main p {
   margin: 6px 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px) {  
   .hero {
     grid-template-columns: 1fr;
     padding: 24px 18px;
